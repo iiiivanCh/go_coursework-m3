@@ -1,0 +1,133 @@
+.game {
+  padding-top: 12px;
+  padding-bottom: 220px;
+}
+
+.game__title {
+  position: relative;
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 100%;
+  letter-spacing: -0.1em;
+}
+
+.game__title::after {
+  content: "";
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 675px;
+  height: 762px;
+  background-image: url("../img/s1_men.png");
+}
+
+.game__text {
+  margin-bottom: 30px;
+  padding-left: 100px;
+  width: 700px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 50px;
+}
+
+.game__marketing {
+  margin-bottom: 150px;
+  display: flex;
+  align-items: flex-end;
+  gap: 25px;
+}
+
+.game__marketing-block {
+  width: 195px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.game__marketing-word1 {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 141px;
+  color: var(--color-header);
+}
+
+.game__marketing-word2 {
+  font-weight: 900;
+  font-size: 75px;
+  line-height: 106px;
+  font-variant: small-caps;
+  color: var(--color-header);
+}
+
+.game__booking {
+  position: relative;
+  display: block;
+  padding: 25px 69px;
+  width: 374px;
+  background-color: var(--color-fake-1);
+  border-radius: 10px;
+  border: 0 none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: var(--color-text-1);
+  text-transform: uppercase;
+}
+
+.game__booking::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-fake-1);
+  filter: blur(20px);
+}
+
+.game__booking:hover {
+  background-color: var(--color-fake-3);
+}
+
+.game__booking:focus {
+  background-color: var(--color-fake-3);
+  outline: none;
+}
+
+.game__booking:active {
+  background-color: var(--color-fake-2);
+}
+
+.game__down {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -35%);
+  width: 99px;
+  height: 99px;
+  background-image: url(../img/down.svg);
+  background-repeat: no-repeat;
+}
+
+.game__down:hover {
+  background-image: url(../img/down-hover.svg);
+}
+
+.game__down:focus {
+  border: 1px solid var(--color-header);
+}
+
+.game__down:active {
+  background-image: url(../img/down-active.svg);
+}
+
+
+
+
+
+@media (max-width: 1250px) {}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {}
