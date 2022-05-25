@@ -89,7 +89,7 @@
 @media (max-width: 1250px) {
   .all {
     padding-top: 15px;
-    /* padding-bottom: 45px; */
+    padding-bottom: 10px;
   }
   
   .all__title {
@@ -151,7 +151,6 @@
 
   .all {
     padding-top: 49px;
-    /* padding-bottom: 45px; */
   }
   
   .all__title {
@@ -209,7 +208,6 @@
 
   .all {
     padding-top: 5px;
-    /* padding-bottom: 45px; */
   }
   
   .all__title {
@@ -243,7 +241,6 @@
 
   .all {
     padding-top: 5px;
-    /* padding-bottom: 45px; */
   }
   
   .all__title {
@@ -255,8 +252,6 @@
   }
   
   .all__list {
-    height: auto;
-    flex-direction: row;
     gap: 10px;
   }
   
@@ -277,40 +272,28 @@
 
   
 .all__item-img1 {
-  background-image: url("../img/s2i1.jpg");
-  background-size: cover;
   background-position-x: 0;
 }
 
 .all__item-img2 {
-  background-image: url("../img/s2i2.jpg");
-  background-size: cover;
   background-position-y: -8px;
 }
 
 .all__item-img3 {
   padding-bottom: 17px;
-  background-image: url("../img/s2i3.jpg");
-  background-size: cover;
   background-position-y: -7px;
 }
 
 .all__item-img4 {
-  background-image: url("../img/s2i4.jpg");
-  background-size: cover;
   background-position-x: 0;
 }
 
 .all__item-img5 {
   padding-bottom: 3px;
-  background-image: url("../img/s2i5.jpg");
-  background-size: cover;
   background-position:0 -33px;
 }
 
 .all__item-img6 {
-  background-image: url("../img/s2i6.jpg");
-  background-size: cover;
   background-position-y: -14px;
 }
  
