@@ -1,6 +1,6 @@
 .header {
   padding-top: 30px;
-  padding-bottom: 33px;
+  padding-bottom: 35px;
 }
 
 .header__wrapp {
@@ -72,6 +72,11 @@
 
 
 @media (max-width: 1250px) {
+
+  .header {
+    padding-bottom: 26px;
+  }
+
   .header__logo-link {
     margin-right: 78px;
     width: 88px;
@@ -145,7 +150,7 @@
 
   .header {
     padding-top: 23px;
-    padding-bottom: 33px;
+    padding-bottom: 14px;
   }
 
   .header__logo-link {

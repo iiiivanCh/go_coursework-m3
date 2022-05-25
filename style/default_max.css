@@ -107,7 +107,14 @@ iframe {
 
 @media (max-width: 767px) {
   .container {
-    max-width: 280px;
+    width: 530px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    width: 320px;
     padding: 0 20px;
   }
 }
