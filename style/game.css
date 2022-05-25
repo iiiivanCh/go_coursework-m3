@@ -128,7 +128,7 @@
 @media (max-width: 1250px) {
   .game {
     padding-top: 5px;
-    /* padding-bottom: 220px; */
+    padding-bottom: 135px;
   }
   
   .game__title {
@@ -323,8 +323,7 @@
   @media (max-width: 575px) {
 
     .game {
-      padding-top: 6px;
-      /* padding-bottom: 220px; */
+      padding-bottom: 64px;
     }
     
     .game__title {
