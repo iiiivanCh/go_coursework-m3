@@ -133,7 +133,6 @@
 
   .about {
     padding-top: 70px;
-    /* padding-bottom: 50px; */
   }
 
   .about__title {
@@ -219,7 +218,7 @@
 
   .about {
     padding-top: 60px;
-    /* padding-bottom: 50px; */
+    padding-bottom: 41px;
   }
 
   .about__title {
@@ -446,7 +445,7 @@
 
   .about {
     padding-top: 30px;
-    /* padding-bottom: 50px; */
+    padding-bottom: 10px;
   }
 
   .about__grid {
