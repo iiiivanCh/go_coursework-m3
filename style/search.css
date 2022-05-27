@@ -32,6 +32,10 @@
   display: none;
 }
 
+.search__item--white-v {
+  display: none;
+}
+
 .search__item:not(:last-child) {
   margin-bottom: 20px;
 }
@@ -231,5 +235,4 @@
     height: 30px;
     background-size: 30px 30px;
   }
-
 }
