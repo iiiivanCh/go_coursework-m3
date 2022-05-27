@@ -44,7 +44,7 @@
   position: relative;
   margin-bottom: 15px;
   width: 280px;
-  height: 280px;
+  height: 280px; 
 }
 
 .feedback__img-wrap::after {
