@@ -155,8 +155,12 @@
   opacity: 0;
 }
 
-.set__input-r:checked::after {
+.set__input-r:focus::after {
   opacity: 1;
+}
+
+.set__input-r:checked::before {
+  background-color: var(--color-header);
 }
 
 .set__p {
@@ -193,12 +197,12 @@
   opacity: 0;
 }
 
-.set__input-ch:checked::after {
-  opacity: 1;
-}
-
-.set__input-ch:focus::before {
+.set__input-ch:checked::before {
   background-color: var(--color-header);
+} 
+
+.set__input-ch:focus::after {
+opacity: 1;
 }
 
 .personal__legend {

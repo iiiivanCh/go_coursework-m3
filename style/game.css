@@ -115,6 +115,7 @@
 
 .game__down:focus {
   border: 1px solid var(--color-header);
+  outline: none;
 }
 
 .game__down:active {
