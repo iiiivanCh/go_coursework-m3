@@ -95,7 +95,6 @@
 .set {
   padding-bottom: 62px;
   display: flex;
-  justify-content: space-around;
 }
 
 .set__legend {
@@ -110,7 +109,20 @@
 .set__fieldset {
   display: flex;
   flex-direction: column;
+}
+
+.set__fieldset--r {
+  margin-right: 171px;
+  padding-left: 100px;
   gap: 24px;
+}
+
+.set__fieldset--ch {
+  gap: 22px
+}
+
+.set__fieldset--ch:not(:last-child) {
+  margin-right: 178px;
 }
 
 .set__legend-col {
@@ -165,6 +177,12 @@
 
 .set__p {
   padding-left: 40px;
+  letter-spacing: 1.0px;
+}
+
+.set__p-ch {
+  padding-left: 37px;
+  letter-spacing: 1.0px;
 }
 
 .set__input-ch {
@@ -419,9 +437,7 @@ input:not([type="radio"]):not([type="checkbox"]):not([type="button"]):focus {
   }
 
   .set {
-    padding-bottom: 65px;
-    justify-content: flex-start;
-    gap: 109px;
+    padding-bottom: 62px;
   }
 
   .set__legend {
@@ -432,8 +448,26 @@ input:not([type="radio"]):not([type="checkbox"]):not([type="button"]):focus {
     gap: 23px;
   }
 
+  .set__fieldset--r {
+    margin-right: 112px;
+    padding-left: 0;
+    gap: 24px;
+  }
+  
+  .set__fieldset--ch {
+    gap: 22px
+  }
+
+  .set__fieldset--ch:not(:last-child) {
+    margin-right: 106px;
+  }
+
   .set__p {
     letter-spacing: 0.85px;
+  }
+
+  .set__p-ch {
+    padding-left: 39px;
   }
 
   .personal__legend {
@@ -518,6 +552,10 @@ input:not([type="radio"]):not([type="checkbox"]):not([type="button"]):focus {
     margin-right: 100px;
   }
 
+  .set__fieldset--ch:not(:last-child) {
+    margin-right: 0;
+  }
+
   .set__legend-col {
     margin-bottom: 33px;
   }
@@ -543,6 +581,10 @@ input:not([type="radio"]):not([type="checkbox"]):not([type="button"]):focus {
   .set__p {
     padding-left: 60px;
     letter-spacing: 0.85px;
+  }
+
+  .set__p-ch {
+    padding-left: 60px;
   }
 
   .set__input-ch:before {
@@ -782,6 +824,13 @@ input:not([type="radio"]):not([type="checkbox"]):not([type="button"]):focus {
   }
 
   .set__p {
+    padding-left: 50px;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0;
+  }
+
+  .set__p-ch {
     padding-left: 50px;
     font-size: 16px;
     line-height: 18px;
