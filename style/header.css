@@ -6,6 +6,7 @@
 .header__wrapp {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header__menu {
@@ -14,7 +15,7 @@
 
 .header__logo-link {
   display: block;
-  margin-right: 96px;
+  /* margin-right: 96px; */
 }
 
 .header__logo-link:hover {
@@ -42,7 +43,7 @@
 }
 
 .header__button {
-  margin-left: auto;
+  /* margin-left: auto; */
   padding: 10px 29px;
   border: 3px solid var(--color-header);
   border-radius: 10px;
@@ -78,7 +79,7 @@
   }
 
   .header__logo-link {
-    margin-right: 78px;
+    /* margin-right: 78px; */
     width: 88px;
     height: 53px;
   }
